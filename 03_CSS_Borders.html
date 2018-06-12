@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Borders</title>
+    <style>
+        div{
+            background-color: lightgreen;
+            text-align: center;
+            padding: 10px;
+            margin: 5px;
+            width: 500px;
+        }
+
+        #border-top{
+            border-top: 10px solid green;
+        }
+
+        #border-right{
+            border-right: 10px solid green;
+        }
+
+        #border-bottom{
+            border-bottom: 10px solid green;
+        }
+
+        #border-left{
+            border-left: 10px solid green;
+        }
+
+        #border-all{
+            border: 10px solid green;
+        }
+
+        #rounded-all{
+            border: 10px solid green;
+            border-radius: 20px;
+        }
+
+        #rounded-two{
+            border: 10px double red;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+        #movie{
+            border-top: 60px solid red;
+            border-right: 60px solid black;
+            border-bottom: 60px solid yellow;
+            border-left: 60px solid black;
+            padding: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- BORDER TOP -->
+<div id="border-top">
+    <p>Border Top</p>
+</div>
+
+<!-- BORDER RIGHT -->
+<div id="border-right">
+    <p>Border Right</p>
+</div>
+
+<!-- BORDER BOTTOM -->
+<div id="border-bottom">
+    <p>Border Bottom</p>
+</div>
+
+<!-- BORDER LEFT -->
+<div id="border-left">
+    <p>Border Left</p>
+</div>
+
+
+<!-- BORDER ALL SIDES -->
+<div id="border-all">
+    <p>Border All</p>
+</div>
+
+<!-- ROUNDER BORDER ALL SIDES -->
+<div id="rounded-all">
+    <p>Rounded All</p>
+</div>
+
+
+<!-- Rounded Two Sides -->
+<div id="rounded-two">
+    <p>Rounded Two</p>
+</div>
+
+<!-- CUSTOM BORDER -->
+<div id="movie">
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/WZv_sEUhWjc?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>
